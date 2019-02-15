@@ -1,7 +1,7 @@
 ## Jupiter
 Application task:
 
-#Spørsmål 1
+# Spørsmål 1
 n er et positivt tall, og funksjonen f(n) er som følgende:
 f(0) = 0
 f(1) = 1
@@ -9,7 +9,7 @@ f(n) = f(n – 1) + f(n – 2)
 Q1. Skriv 2 funksjoner som regner ut f(n). En funksjon skal være rekursiv, den andre ikke-rekursiv. Skriv
 funksjonen i Javascript.
 
-#Spørsmål 2
+# Spørsmål 2
 Q2. Skriv en sjekkliste app i ReactJS. Nødvendige funksjoner er:
 1. Legge til nye items i sjekklisten
 2. Redigere items i sjekklisten
