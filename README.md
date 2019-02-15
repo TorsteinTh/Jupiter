@@ -15,6 +15,7 @@ Q2. Skriv en sjekkliste app i ReactJS. Nødvendige funksjoner er:
 2. Redigere items i sjekklisten
 3. Fjerne items i sjekklisten
 Appen trenger bare å presentere én sjekkliste. Du trenger ikke å lagre data i sjekklisten til en database.
+
 Bonusfunksjoner:
 1. Bruk et UI framework (Bootstrap, Ant Design, …)
 2. Style appen med css-regler
