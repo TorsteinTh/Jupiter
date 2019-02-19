@@ -1,12 +1,15 @@
 # Jupiter
 Application task:
 
+<br/>
+
 ### Recursive fibonacci function
 To start and test the recursive function please enter: 
 ```
 node fibonacci.js
 ```
-
+<br/>
+<br/>
 
 ### TODO app 
 To start and test the TODO app created with react enter: 
@@ -30,14 +33,16 @@ npm install
 
 
 #### Login
-To enter the TODO app, please enter: 
-Username: **Torstein**
-Password: **123**
+To enter the TODO app, please enter:    <br/>
+Username: **Torstein**                  <br/>
+Password: **123**                       <br/>
 
 
-
+<br/>
+<br/>
+<br/>
 
 
 ## Authors
 
-* **Torstein Thomassen** - [Github](https://github.com/Torsteinth)
+* **Torstein Thomassen** - [Github.com/Torsteinth](https://github.com/Torsteinth)
