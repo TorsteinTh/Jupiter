@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
 
-import { Button } from "react-bootstrap"
 import Checkelem from "./Checkelem.js"
 
 
@@ -15,12 +14,12 @@ class Checklist extends Component {
 
     render() {
         var items = this.props.items.map((item, index) => {
-            console.log(this.props.items.indexOf(item))
+            console.log(item)
             return (
                 <Checkelem
                     key={index}
                     item={item}
-                    index={index}
+                    index={item.elemId}
                     edit={this.props.edit}
                     removeItem={this.props.removeItem}
                     editCheckelem={this.props.editCheckelem}
@@ -30,9 +29,9 @@ class Checklist extends Component {
             );
         });
         return (
-            <ul className="list-group">
+            <StyleList className="list-group">
                 {items}
-            </ul>
+            </StyleList>
 
 
         );
@@ -40,3 +39,8 @@ class Checklist extends Component {
 }
 
 export default Checklist;
+
+const StyleList = styled.ul`
+    padding-left: 30%
+    padding-right: 30%
+`;
