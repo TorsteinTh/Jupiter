@@ -1,8 +1,3 @@
-# Jupiter
-Application task:
-
-<br/>
-
 ### Recursive fibonacci function
 To start and test the recursive function please enter: 
 ```
